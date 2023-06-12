@@ -1,6 +1,6 @@
 @import "reset.css";
 @import "variables.css";
-@import "status-bar.css";
+@import "components/status-bar.css";
 
 
 
@@ -58,4 +58,13 @@ body {
 #login-form input[type="submit"] {
     background-color: var(--yellow);
     cursor: pointer;
+    padding: 20px 0px;
+    border-radius: 5px;
+}
+
+#login-form a {
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+    font-size: 13px;
 }
